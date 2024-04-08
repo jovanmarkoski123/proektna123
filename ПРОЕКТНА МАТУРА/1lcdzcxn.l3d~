@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon za avtomobili</title>
+    <link rel="stylesheet" href="stil.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--navbar-->
+<header>
+    <!--navcontainer-->
+    <div class="nav container">
+        <!--Meni ikona-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--logo-->
+        <a href="#" class="logo">Авто<span>Продажба</span></a>
+        <!--nav list-->
+        <ul class="navbar">
+        <li><a href="#home" class="active">Почетна</a></li>
+        <li><a href="#cars" class="">Автомобили</a></li>
+        <li><a href="#about" class="">За нас</a></li>
+        <li><a href="#parts" class="">Делови</a></li>
+        <li><a href="#blog" class="">Нашиот блог</a></li>
+        </ul>
+        <!--search icon-->
+        <i class='bx bx-search' id="search-icon" ></i>
+        <!--search box-->
+        <div class="search-box container">
+            <input type="search" name="" id="" placeholder="Search here...">
+        </div>
+    </div>
+</header>
+<!--Home-->
+<section class="home" id="home">
+    <div class="home-text">
+        <h1>Имаме све што ви е потребно <br>за вашиот <span>Автомобил</span></h1>
+        <p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Nam, sequi?</p>
+        <!--Home dugme-->
+        <a href="#parts" class="btn">Види веднаш</a>
+    </div>
+</section>
+<!--del za avtomobili-->
+<section class="cars" id="cars">
+    <div class="heading">
+        <span>Сите Автомобили</span>
+        <h2>Имаме секаков вид автомобили</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, iusto.</p>
+    </div>
+    <!--carcontainer-->
+    <div>
+        <div class="cars-container container">
+            <!--box 1-->
+            <div class="box">
+                <img src="car1.jpg" alt="">
+                <h2>Порше</h2>
+            </div>
+            <!--box 2-->
+            <div class="box">
+                <img src="car2.jpg" alt="">
+                <h2>Порше</h2>
+            </div>
+            <!--box 3-->
+            <div class="box">
+                <img src="car3.jpg" alt="">
+                <h2>Порше</h2>
+            </div>
+            <!--box 4-->
+            <div class="box">
+                <img src="car4.jpg" alt="">
+                <h2>Порше</h2>
+            </div>
+            <!--box 5-->
+            <div class="box">
+                <img src="car5.jpg" alt="">
+                <h2>Порше</h2>
+            </div>
+            <!--box 6-->
+            <div class="box">
+                <img src="car6.jpg" alt="">
+                <h2>Порше</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Zanas-->
+<section class="about container" id="about">
+    <div class="about-img">
+        <img src="about.png" alt="">
+    </div>
+    <div class="about-text">
+        <span>За Нас</span>
+        <h2>Евтини цени за<br>Квалитетни автомобили</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque delectus possimus architecto provident reiciendis quae!</p>
+        <!--zanas btn-->
+        <a href="" class="btn">Дознај повеќе</a>
+    </div>
+</section>
+<!--delovi-->
+<section class="parts" id="parts">
+    <div class="heading">
+        <span>Што ви нудиме</span>
+        <h2>Нашите автомобили се со највисок квалитет</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sunt.</p>
+    </div>
+    <!--delovi kontener-->
+    <div class="parts-container container">
+        <!--box1-->
+        <div class="box"><img src="part1.png" alt="">
+            <h3>Бл�

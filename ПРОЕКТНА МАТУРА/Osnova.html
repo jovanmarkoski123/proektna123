@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon za avtomobili</title>
+    <link rel="stylesheet" href="stil.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--navbar-->
+<header>
+    <!--navcontainer-->
+    <div class="nav container">
+        <!--Meni ikona-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--logo-->
+        <a href="#" class="logo">Авто<span>Продажба</span></a>
+        <!--nav list-->
+        <ul class="navbar">
+        <li><a href="#home" class="active">Почетна</a></li>
+        <li><a href="#cars" class="">Автомобили</a></li>
+        <li><a href="#about" class="">За нас</a></li>
+        <li><a href="#parts" class="">Делови</a></li>
+        <li><a href="#blog" class="">Нашиот блог</a></li>
+        </ul>
+        <!--search icon-->
+        <i class='bx bx-search' id="search-icon" ></i>
+        <!--search box-->
+        <div class="search-box container">
+            <input type="search" name="" id="" placeholder="Search here...">
+        </div>
+    </div>
+</header>
+<!--Home-->
+<section class="home" id="home">
+    <div class="home-text">
+        <h1>Имаме све што ви е потребно <br>за вашиот <span>Автомобил</span></h1>
+        <p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Nam, sequi?</p>
+        <!--Home dugme-->
+        <a href="#parts" class="btn">Види веднаш</a>
+    </div>
+</section>
+<!--del za avtomobili-->
+<section class="cars" id="cars">
+    <div class="heading">
+        <span>Сите Автомобили</span>
+        <h2>Имаме секаков вид автомобили</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, iusto.</p>
+    </div>
+    <!--carcontainer-->
+ <!-- Trigger the Modal -->
+<div class="koli">
+<img id="myImg1" src="car1.jpg" alt="Марка: Порше <br> Модел: Панамера <br> Година на производство: 2023 година <br> Мотор: 4.2 бензин 630кс <br>Боја: Црна<br> Цена: 70000$" style="width:100%;max-width:300px">
+<img id="myImg2" src="car2.jpg" alt="Марка: Ауди <br> Модел: Р8 <br> Година на производство: 2020 година <br> Мотор: 5.2 бензин 650кс <br>Боја: Црвена<br> Цена: 120000$" style="width:100%;max-width:300px">
+<img id="myImg3" src="car3.jpg" alt="Марка: Ауди<br> Модел: Р8 <br> Година на производство: 2018 година <br> Мотор: 5.2 бензин 650кс <br>Боја: Црна<br> Цена: 100000$" style="width:100%;max-width:300px">
+<img id="myImg4" src="car4.jpg" alt="Марка: Ауди <br> Модел: РС8 <br> Година на производство: 2014 година <br> Мотор: 4.2 бензин 430кс <br>Боја: Црна<br> Цена: 50000$" style="width:100%;max-width:300px">
+<img id="myImg5" src="car5.jpg" alt="Марка: Ауди <br> Модел: А5 <br> Година на производство: 2013 година <br> Мотор: 3.0 дизел 230кс <br>Боја: Бела<br> Цена: 15000$" style="width:100%;max-width:300px">
+<img id="myImg6" src="car6.jpg" alt="Марка: Форд <br> Модел: Мустанг <br> Година на производство: 2019 година <br> Мотор: 6.2 бензин 730кс <br>Боја: Сива<br> Цена: 90000$" style="width:100%;max-width:300px">
+</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+  <img class="modal-content" id="img02">
+  <img class="modal-content" id="img03">
+  <img class="modal-content" id="img04">
+  <img class="modal-content" id="img05">
+  <img class="modal-content" id="img06">
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+</section>
+<!--Zanas-->
+<section class="about container" id="about">
+    <div class="about-img">
+        <img src="about.png" alt="">
+    </div>
+    <div class="about-text">
+        <span>За Нас</span>
+        <h2>Евтини цени за<br>Квалитетни автомобили</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque delectus possimus architecto provident reiciendis quae!</p>
+        <!--zanas btn-->
+        <a href="" class="btn">Дознај повеќе</a>
+    </div>
+</section>
+<!--delovi-->
+<section class="parts" id="parts">
+    <div class="heading">
+        <span>Што ви нудиме</span>
+        <h2>Нашите автомобили се со највисок квалитет</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sunt.</p>
+    </div>
+    <!--delovi kontener-->
+    <div class="parts-container container">
+        <!--box1-->
+        <div class="box"><img src="part1.png" alt="">
+            <h3>Блок</h3>
+            <span>$400</span>
+            <i class='bx bxs-star'>(6 Reviews)</i>
+            <a href="#" class="btn">Купи сега!</a>
+            <a href="#" class="details">Види повеќе</a>
+         </div>
+         <!--box2-->
+        <div class="box"><img src="part2.png" alt="">
+            <h3>Клипови</h3>
+            <span>$300</span>
+            <i class='bx bxs-star'>(6 Reviews)</i>
+            <a href="#" class="btn">Купи сега!</a>
+            <a href="#" class="details">Види повеќе</a>
+         </div>
+         <!--box3-->
+        <div class="box"><img src="part3.png" alt="">
+            <h3>Замена на гуми</h3>
+            <span>$60</span>
+            <i class='bx bxs-star'>(6 Reviews)</i>
+            <a href="#" class="btn">Купи сега!</a>
+            <a href="#" class="details">Види повеќе</a>
+         </div>
+         <!--box4-->
+        <div class="box"><img src="part4.png" alt="">
+            <h3>Филтер масло</h3>
+            <span>$30</span>
+            <i class='bx bxs-star'>(6 Reviews)</i>
+            <a href="#" class="btn">Купи сега!</a>
+            <a href="#" class="details">Види повеќе</a>
+         </div>
+         <!--box5-->
+        <div class="box"><img src="part5.png" alt="">
+            <h3>Алтернатор</h3>
+            <span>$150</span>
+            <i class='bx bxs-star'>(6 Reviews)</i>
+            <a href="#" class="btn">Купи сега!</a>
+            <a href="#" class="details">Види повеќе</a>
+         </div>
+         <!--box6-->
+        <div class="box"><img src="part6.png" alt="">
+            <h3>Бандаши</h3>
+            <span>$500</span>
+            <i class='bx bxs-star'>(6 Reviews)</i>
+            <a href="#" class="btn">Купи сега!</a>
+            <a href="#" class="details">Види повеќе</a>
+         </div>
+    </div>
+</section>
+<!--Blog container-->
+<section class="blog" id="blog">
+    <div class="heading">
+        <span>Блог и Новости</span>
+        <h2>Содржината на нашиот блог</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sunt.</p>
+    </div>
+    <!--Blog container-->
+    <div class="blog-container container">
+        <!--box1-->
+        <div class="box">
+            <img src="car1.jpg" alt="">
+            <span>14 Feb 2021</span>
+            <h3>Како да земете перфектен автомобил за најниска цена</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, inventore.</p>
+            <a href="" class="blog-btn">Дознај Повеќе<i class='bx bxs-hand-right' ></i></a>
+        </div>
+        <!--box2-->
+        <div class="box">
+            <img src="car2.jpg" alt="">
+            <span>14 Feb 2021</span>
+            <h3>Како да земете перфектен автомобил за најниска цена</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, inventore.</p>
+            <a href="" class="blog-btn">Дознај Повеќе<i class='bx bxs-hand-right' ></i></a>
+        </div>
+        <!--box3-->
+        <div class="box">
+            <img src="car3.jpg" alt="">
+            <span>14 Feb 2021</span>
+            <h3>Како да земете перфектен автомобил за најниска цена</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, inventore.</p>
+            <a href="#cars" class="blog-btn">Дознај Повеќе<i class='bx bxs-hand-right' ></i></a>
+        </div>
+    </div>
+</section>
+<!--footer-->
+<section class="footer">
+    <div class="footer-container container">
+        <div class="footer-box">
+            <a href="#" class="logo">Авто<span>Продажба</span></a>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Страна</h3>
+            <a href="#">Почетна</a>
+            <a href="#">Автомобили</a>
+            <a href="#">Делови</a>
+            <a href="#">Продажба</a>
+        </div>
+        <div class="footer-box">
+            <h3>Повеќе информации</h3>
+            <a href="#">Приватност</a>
+            <a href="#">Замена</a>
+            <a href="#">Колачиња</a>
+        </div>
+        <div class="footer-box">
+            <h3>Контакти</h3>
+            <p>САД</p>
+            <p>Јапонија</p>
+            <p>Германија</p>
+            <p>Македонија</p>
+
+        </div>
+    </div>
+</section>
+
+<!--link do js-->
+<script src="java.js"></script>
+</body>
+</html>
